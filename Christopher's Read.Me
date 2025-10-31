@@ -1,0 +1,39 @@
+COMP 163 - Project 1: Character Creator & Saving/Loading
+
+Author
+Christopher Arnold – COMP 163, Fall 2025
+
+Description
+
+This program is an interactive Character Creator that allows users to design and manage a game hero. Players choose a name and class, view their character stats, and save or load their progress from a text file. The project focuses on file input/output operations, data validation, and error handling without using try/except blocks.
+
+The system supports creating, saving, loading, and leveling up characters, while gracefully handling potential issues such as missing files, invalid input, or permission restrictions.
+
+Program Concept
+
+Players begin by entering their hero’s name and selecting a valid class — Warrior, Mage, Rogue, or Cleric.
+Each class has its own base stats for Strength, Magic, and Health, which increase as the character levels up.
+
+The program flow includes:
+
+Character Creation: Input name and class, then generate initial stats and gold.
+
+File Saving: Save the character’s stats to a text file (hero.txt) if the directory is writable.
+
+File Loading: Load character data from the saved file if it exists.
+
+Leveling Up: Recalculate stats and increase gold as the character progresses.
+
+Display: Show all character details in a formatted sheet.
+
+AI Usage
+
+Assistance from ChatGPT (GPT-5) was used for:
+
+Structuring function logic (especially calculate_stats() and file handling) and os functions.
+
+Designing balanced stat formulas for each class.
+
+Drafting documentation and explanatory comments.
+
+All logic was fully reviewed, tested, and understood by me and the TA
